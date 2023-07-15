@@ -13,7 +13,7 @@ const customConfig = {
 const instance = axios.create(customConfig);
 
 export function fetchBreeds() {
-  return instancet('v1/breeds').then(resp => {
+  return instance('v1/breeds').then(resp => {
     if (resp.status !== 200) {
       throw new Error(resp.statusText);
     }
