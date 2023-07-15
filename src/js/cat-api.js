@@ -4,7 +4,7 @@ axios.defaults.headers.common['x-api-key'] =
   'live_cK5eVLnSrGBmmngczTMu0cNbQDslW9YnXLOvdntREOq3waRUZWSzZjuJ2UgHlfne';
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
-BASE_URL = 'https://api.thecatapi.com';
+const BASE_URL = 'https://api.thecatapi.com';
 
 const customConfig = {
   baseURL: BASE_URL,
